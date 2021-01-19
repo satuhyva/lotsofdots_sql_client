@@ -3,12 +3,12 @@ import React from 'react'
 
 const Vote: React.FC = () => {
 
-  return(
-    <div>
+    return(
+        <div>
         Vote
-    </div>
+        </div>
       
-  )
+    )
 }
 
 export default Vote

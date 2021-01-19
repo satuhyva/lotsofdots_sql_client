@@ -17,7 +17,7 @@ const SelectModeOfUseButton: React.FC<UseModeSelectionButtonProps> = ({ modeWith
 
     const classes = useSelectModeOfUseButtonStyles()
 
-  return(
+    return(
         <Button
             className={classes.button}
             variant='contained'
@@ -34,7 +34,7 @@ const SelectModeOfUseButton: React.FC<UseModeSelectionButtonProps> = ({ modeWith
                 </Typography>  
             </div>
         </Button>
-  )
+    )
 }
 
 export default SelectModeOfUseButton
