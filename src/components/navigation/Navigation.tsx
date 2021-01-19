@@ -53,9 +53,9 @@ const Navigation: React.FC = () => {
                     <List>
                         <React.Fragment key='listHeader'>
                             <ListItem className={classes.background}>
-                            <Typography variant='h5' className={classes.navigationContentsTitle}>
+                                <Typography variant='h5' className={classes.navigationContentsTitle}>
                                 LOTS OF DOTS
-                            </Typography>
+                                </Typography>
                             </ListItem>
                             <Divider  className={classes.divider}/>
                         </React.Fragment>

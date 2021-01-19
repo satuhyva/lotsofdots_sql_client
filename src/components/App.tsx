@@ -10,17 +10,17 @@ import LotsOfDots from './LotsOfDots'
 
 const App: React.FC = () => {
 
-  return(
-    <ThemeProvider theme={theme}>
-      <AppContextWithStateProvider>
-        <Router>
-          <HeaderWithNavigation/>
-          <LotsOfDots/>
-        </Router>
-      </AppContextWithStateProvider>
-    </ThemeProvider>
+    return(
+        <ThemeProvider theme={theme}>
+            <AppContextWithStateProvider>
+                <Router>
+                    <HeaderWithNavigation/>
+                    <LotsOfDots/>
+                </Router>
+            </AppContextWithStateProvider>
+        </ThemeProvider>
       
-  )
+    )
 }
 
 export default App
