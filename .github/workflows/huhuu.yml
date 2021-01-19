@@ -12,3 +12,6 @@ jobs:
       - name: Say HUHUU
         run: |
           echo "HUHUU!!!"
+      - date: Print date
+        run: |
+          echo date
