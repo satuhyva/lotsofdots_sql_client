@@ -1,0 +1,14 @@
+name: HUHUU!
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  huhuu_job:
+    runs-on: ubuntu-18.04
+    steps: 
+      - name: Say HUHUU
+        run: |
+          echo "HUHUU!!!"
