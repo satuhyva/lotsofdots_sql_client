@@ -14,3 +14,5 @@ jobs:
           echo "HUHUU!!!"
       - name: Print date
         run: date
+      - name: List files
+        run: ls -l
